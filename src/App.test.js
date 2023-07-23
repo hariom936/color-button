@@ -1,6 +1,6 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import App from "./App";
-import { replaceCamelWithSpaces } from "./App";
+import {replaceCamelWithSpaces} from "./App";
 
 test("button has correct initial color", () => {
   render(<App />);
